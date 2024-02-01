@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['insan', 'kamyon', 'motor', 'tasit', 'uai', 'uap']
+
+roboflow:
+  workspace: ieee-euv0p
+  project: hadi
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ieee-euv0p/hadi/dataset/6
